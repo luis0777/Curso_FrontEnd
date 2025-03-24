@@ -13,8 +13,8 @@ Este curso abrangente aborda as principais tecnologias para se tornar um desenvo
 
 
 ## 📂 Projeto 1
+![image](/Projeto1/imagens/Tela1.png)
 ![image](/Projeto1/imagens/Tela1-1.png)
-![image](/Projeto1/imagens/Tela1-2.png)
 
 ## 📂 Projeto 2
 ![image](/Projeto2/imagens/Tela2.png)
