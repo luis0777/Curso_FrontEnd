@@ -17,4 +17,8 @@ Este curso abrangente aborda as principais tecnologias para se tornar um desenvo
 ![image](/Projeto1/imagens/Tela1-1.png)
 
 ## 📂 Projeto 2
+**Estilo css 1**
 ![image](/Projeto2/imagens/Tela2.png)
+
+**Estilo css 2**
+![image](/Projeto2/imagens/Tela2-1.png)
