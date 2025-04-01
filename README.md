@@ -37,3 +37,6 @@ Este curso abrangente aborda as principais tecnologias para se tornar um desenvo
 ![image](/Projeto6/imagens/Tela6-1.png)
 ![image](/Projeto6/imagens/Tela6-2.png)
 ![image](/Projeto6/imagens/Tela6-3.png)
+
+## 📂 Projeto 7
+![image](/Projeto7/imagens/Tela7.png)
