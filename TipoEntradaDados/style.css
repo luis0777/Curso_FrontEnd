@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 1em;
+}
+
+textarea {
+    resize: none;
+}
+
+input{
+    accent-color: blue;
+}

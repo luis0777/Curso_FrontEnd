@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Entrada de dados</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Introdução</legend>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autofocus />
+
+        <label for="idade">Idade</label>
+        <input type="range" name="idade" id="idade" min="1" max="150" />
+
+        <label for="hora">Horario</label>
+        <input type="time" name="horario" id="horario" required />
+
+        <label for="filhos">Quantidade de filhos</label>
+        <input
+          type="number"
+          id="filhos"
+          name="filhos"
+          min="0"
+          max="10"
+          required
+        />
+
+        <label for="data">Data</label>
+        <input
+          type="date"
+          id="Data"
+          name="Data"
+          required
+          min="2025-03-01"
+          max="2025-04-30"
+        />
+
+        <span>Possui atividade extra?</span>
+        <div class="radio_opcao">
+          <label
+            ><input type="radio" name="atvExtra" value="sim" required />Sim
+          </label>
+          <label
+            ><input type="radio" name="atvExtra" value="nao" required />Não
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Área de interesse</legend>
+
+        <label>
+          <input type="checkbox" name="interesse" value="html" />HTML
+        </label>
+        <label>
+          <input type="checkbox" name="interesse" value="css" />CSS
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="interesse"
+            value="javascript"
+          />JavaScript
+        </label>
+        <label>
+          <input type="checkbox" name="interesse" value="python" />Python
+        </label>
+        <label>
+          <input type="checkbox" name="interesse" value="java" />Java
+        </label>
+        <label> <input type="checkbox" name="interesse" value="c#" />C# </label>
+
+        <label>Escolha uma linguagem</label>
+        <select name="linguagem" required>
+          <!-- <select name="linguagem" required multiple size="5"> -->
+          <option value="">Selecione uma linguagem</option>
+
+          <optgroup label="frontend">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+          </optgroup>
+
+          <optgroup label="backend">
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="c#>">C#</option>
+          </optgroup>
+        </select>
+
+        <input type="text" list="linguagens" />
+        <datalist id="linguagens">
+          <option value="HTML"></option>
+          <option value="CSS"></option>
+          <option value="JavaScript"></option>
+          <option value="Python"></option>
+          <option value="Java"></option>
+          <option value="C#"></option>
+        </datalist>
+      </fieldset>
+
+      <fieldset>
+        <legend>Mensagem</legend>
+        <textarea name="msg" cols="50" rows="2" maxlength="10"></textarea>
+
+        <!-- <textarea rows="10" cols="50" readonly> -->
+        <textarea rows="5" cols="50" disabled>
+            Contrato de utilização
+        1.1 regra aaaaaaaaaaaaaa
+        1.2 regra bbbbbbbbbbbbbbb
+        1.3 regra cccccccccccccccccc
+        </textarea>
+        <label
+          ><input type="checkbox" value="aceito" required checked />LI E ACEITO
+          O CONTRATO</label
+        >
+        <!-- <label
+          ><input type="checkbox" value="aceito" required  />LI E ACEITO
+          O CONTRATO</label
+        > -->
+      </fieldset>
+
+      <fieldset>
+        <legend>Arquivos</legend>
+        <input type="file" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Pesquisa</legend>
+        <input type="search" name="" id="pesquisa" />
+      </fieldset>
+
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Limpar" />
+      <input type="button" value="button" />
+      <button type="submit">Enviar com tag button</button>
+    </form>
+  </body>
+</html>
