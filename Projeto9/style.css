@@ -1,0 +1,87 @@
+html {
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+form {
+  width: 90%;
+  min-width: 28.125em;
+  max-width: 35em;
+  background-color: #000;
+  padding: 1em;
+}
+
+fiedset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid transparent;
+  border-bottom-color: #fff;
+  padding: 0.75em;
+  margin: 0.5em 0 2.5em;
+  color: #fff;
+  outline: none;
+}
+
+/* input:invalid,
+textarea:invalid {
+  background-color: red;
+}
+
+input:valid, textarea:valid {
+    background-color: green;
+} */
+
+input:invalid:focus,
+textarea:invalid:focus {
+  border-bottom-color: red;
+}
+
+input:valid:focus, textarea:valid:focus {
+    border-bottom-color: green;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom-color: 2px solid #fff;
+  background-color: #2a2727;
+}
+
+legend {
+  padding: 0.5em;
+  text-align: center;
+  font-weight: bold;
+  color: #8e999a;
+  font-size: 1.25em;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #2a2727;
+  color: #fff;
+  font-size: 1.25em;
+  padding: 0.7em;
+}
