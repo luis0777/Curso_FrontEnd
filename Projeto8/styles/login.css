@@ -1,0 +1,67 @@
+html {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+form {
+  width: 350px;
+  background-color: #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+legend {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 1em;
+}
+
+input,
+label {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 0.25em;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.actions {
+  display: flex;
+  gap: 1em;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn--apagar{
+    background-color: #dc3545;
+}
